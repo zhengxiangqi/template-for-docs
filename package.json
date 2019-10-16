@@ -1,0 +1,21 @@
+{
+    "name": "WebDocs",
+    "version": "1.0.0",
+    "description": "前端文档规范",
+    "main": "",
+    "scripts": {
+        "start": "docsify serve src"
+    },
+    "keywords": [],
+    "author": "zhengxiangqi",
+    "license": "MIT",
+    "babel": {
+        "presets": [
+            "es2015"
+        ]
+    },
+    "devDependencies": {},
+    "dependencies": {
+        "docsify-cli": "^4.3.0"
+    }
+}

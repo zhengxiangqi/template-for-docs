@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>前端文档规范</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="/themes/vue.css" />
+    </head>
+
+    <body>
+        <div id="app"></div>
+        <script>
+            window.$docsify = {
+                el: '#app',
+                name: '前端文档规范',
+                repo: 'https://gitlab.10101111.com/xiangqi.zheng/webdocs',
+                basePath: '/',
+                mergeNavbar: true,
+                loadNavbar: true,
+                loadSidebar: true,
+                alias: {
+                    '/.*/_sidebar.md': '/_sidebar.md',
+                    '/.*/_navbar.md': '/_navbar.md',
+                },
+                maxLevel: 6,
+                subMaxLevel: 2,
+                noEmoji: false,
+                autoHeader: true,
+                auto2top: true,
+                onlyCover: true,
+                coverpage: true,
+                search: {
+                    maxAge: 86400000,
+                    paths: 'auto',
+                    placeholder: '输入关键词进行搜索',
+                    noData: '找不到结果',
+                    depth: 6,
+                },
+                copyCode: {
+                    buttonText: '复制',
+                    errorText: '错误',
+                    successText: '已复制',
+                },
+                pagination: {
+                    previousText: '上一章节',
+                    nextText: '下一章节',
+                    crossChapter: true,
+                },
+                // disqus: 'WebDocs',
+            };
+        </script>
+    </body>
+
+    <script src="/plugins/docsify.min.js"></script>
+    <script src="/plugins/docsify-plantuml.min.js"></script>
+    <script src="/plugins/docsify-copy-code.min.js"></script>
+    <script src="/plugins/docsify-pdf-embed.js"></script>
+    <script src="/plugins/docsify-pagination.min.js"></script>
+    <script src="/plugins/docsify-scroll-to-top.min.js"></script>
+    <script src="/plugins/prism-git.min.js"></script>
+    <script src="/plugins/prism-bash.min.js"></script>
+    <script src="/plugins/prism-powershell.min.js"></script>
+    <script src="/plugins/prism-markdown.min.js"></script>
+    <script src="/plugins/prism-vim.min.js"></script>
+    <script src="/plugins/prism-docker.min.js"></script>
+    <script src="/plugins/prism-nginx.min.js"></script>
+    <script src="/plugins/prism-less.min.js"></script>
+    <script src="/plugins/prism-sass.min.js"></script>
+    <script src="/plugins/prism-scss.min.js"></script>
+    <script src="/plugins/prism-regex.min.js"></script>
+    <script src="/plugins/prism-jsx.min.js"></script>
+    <script src="/plugins/prism-json.min.js"></script>
+    <script src="/plugins/prism-java.min.js"></script>
+    <script src="/plugins/prism-yaml.min.js"></script>
+    <script src="/plugins/prism-groovy.min.js"></script>
+    <script src="/plugins/prism-sql.min.js"></script>
+    <script src="/plugins/prism-scala.min.js"></script>
+    <script src="/plugins/prism-python.min.js"></script>
+    <script src="/plugins/prism-go.min.js"></script>
+    <script src="/plugins/search.min.js"></script>
+    <script src="/plugins/zoom-image.min.js"></script>
+    <script src="/plugins/emoji.min.js"></script>
+    <!-- <script src="/plugins/disqus.min.js"></script> -->
+</html>
